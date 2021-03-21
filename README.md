@@ -1,4 +1,4 @@
-# ScanMe_bot
+# ScanMe
 Uses the alghoritm from Document_scanner repository.
 Note: there are some quality issues with scanned documents due to Telegram photos compression.
 
