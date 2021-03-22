@@ -59,6 +59,7 @@ def scan_photos(user_name, file_name, height, my_dir="data"):
                 cv2.imwrite(new_way, imutils.resize(warped, height=height))
                 my_images.append(new_way)
             except:
+                my_images.append(way)
                 err.append(pictures)
 
     try:
